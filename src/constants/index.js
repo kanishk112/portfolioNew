@@ -1,3 +1,5 @@
+const BASE = import.meta.env.BASE_URL;
+
 export const myProjects = [
   {
     id: 1,
@@ -11,27 +13,27 @@ export const myProjects = [
     ],
     href: "https://www.samsung.com/latin_en/support/mobile-devices/how-to-use-updated-notification-settings-in-samsung-one-ui-8/",
     logo: "",
-    image: "/assets/projects/Settings.png",
+  image: `${BASE}assets/projects/Settings.png`,
     tags: [
       {
         id: 1,
         name: "Kotlin",
-        path: "/assets/logos/kotlin.png",
+  path: `${BASE}assets/logos/kotlin.png`,
       },
       {
         id: 2,
         name: "Android",
-        path: "/assets/logos/android.png",
+  path: `${BASE}assets/logos/android.png`,
       },
       {
         id: 3,
         name: "Java",
-        path: "/assets/logos/java.png",
+  path: `${BASE}assets/logos/java.png`,
       },
       {
         id: 4,
         name: "Flutter",
-        path: "/assets/logos/flutter.svg",
+  path: `${BASE}assets/logos/flutter.svg`,
       },
     ],
   },
@@ -48,27 +50,27 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/auth-system.jpg",
+  image: `${BASE}assets/projects/auth-system.jpg`,
     tags: [
       {
         id: 1,
         name: "Auth0",
-        path: "/assets/logos/auth0.svg",
+  path: `${BASE}assets/logos/auth0.svg`,
       },
       {
         id: 2,
         name: "React",
-        path: "/assets/logos/react.svg",
+  path: `${BASE}assets/logos/react.svg`,
       },
       {
         id: 3,
         name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
+  path: `${BASE}assets/logos/sqlite.svg`,
       },
       {
         id: 4,
         name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
+  path: `${BASE}assets/logos/tailwindcss.svg`,
       },
     ],
   },
@@ -85,37 +87,37 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/SmartCalc.png",
+  image: `${BASE}assets/projects/SmartCalc.png`,
     tags: [
       {
         id: 1,
         name: "React",
-        path: "/assets/logos/react.svg",
+  path: `${BASE}assets/logos/react.svg`,
       },
       {
         id: 2,
         name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
+        path: `${BASE}assets/logos/tailwindcss.svg`,
       },
       {
         id: 3,
         name: "Vite.js",
-        path: "/assets/logos/vitejs.svg",
+        path: `${BASE}assets/logos/vitejs.svg`,
       },
       {
         id: 4,
         name: "Mantine",
-        path: "/assets/logos/mantine.svg",
+        path: `${BASE}assets/logos/mantine.svg`,
       },
       {
         id: 5,
         name: "GeminiAI",
-        path: "/assets/logos/gemini.png",
+        path: `${BASE}assets/logos/gemini.png`,
       },
       {
         id: 6,
         name: "Python",
-        path: "/assets/logos/python.svg",
+        path: `${BASE}assets/logos/python.svg`,
       },
     ],
   },
@@ -132,27 +134,27 @@ export const myProjects = [
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/game-engine.jpg",
+  image: `${BASE}assets/projects/game-engine.jpg`,
     tags: [
       {
         id: 1,
         name: "C++",
-        path: "/assets/logos/cplusplus.svg",
+  path: `${BASE}assets/logos/cplusplus.svg`,
       },
       {
         id: 2,
         name: "C#",
-        path: "/assets/logos/csharp.svg",
+  path: `${BASE}assets/logos/csharp.svg`,
       },
       {
         id: 3,
         name: "VR",
-        path: "/assets/logos/vr.png",
+  path: `${BASE}assets/logos/vr.png`,
       },
       {
         id: 4,
         name: "Unity",
-        path: "/assets/logos/unity.png",
+  path: `${BASE}assets/logos/unity.png`,
       },
     ],
   },
@@ -169,27 +171,27 @@ export const myProjects = [
     ],
     href: "https://kanishk112.github.io/Ice-Cream/",
     logo: "",
-    image: "/assets/projects/IceCream.png",
+  image: `${BASE}assets/projects/IceCream.png`,
     tags: [
       {
         id: 1,
         name: "WordPress",
-        path: "/assets/logos/wordpress.svg",
+        path: `${BASE}assets/logos/wordpress.svg`,
       },
       {
         id: 2,
         name: "HTML5",
-        path: "/assets/logos/html5.svg",
+        path: `${BASE}assets/logos/html5.svg`,
       },
       {
         id: 3,
         name: "CSS3",
-        path: "/assets/logos/css3.svg",
+        path: `${BASE}assets/logos/css3.svg`,
       },
       {
         id: 4,
         name: "Vite.js",
-        path: "/assets/logos/vitejs.svg",
+        path: `${BASE}assets/logos/vitejs.svg`,
       },
     ],
   },
@@ -205,27 +207,27 @@ export const myProjects = [
     ],
     href: "https://kanishk112.github.io/Sorting-Visualiser/",
     logo: "",
-    image: "/assets/projects/SortingVisualizer.png",
+  image: `${BASE}assets/projects/SortingVisualizer.png`,
     tags: [
       {
         id: 1,
         name: "CSS3",
-        path: "/assets/logos/css3.svg",
+        path: `${BASE}assets/logos/css3.svg`,
       },
       {
         id: 2,
         name: "Wordpress",
-        path: "/assets/logos/wordpress.svg",
+        path: `${BASE}assets/logos/wordpress.svg`,
       },
       {
         id: 3,
         name: "HTML5",
-        path: "/assets/logos/html5.svg",
+        path: `${BASE}assets/logos/html5.svg`,
       },
       {
         id: 4,
         name: "JavaScript",
-        path: "/assets/logos/javascript.svg",
+        path: `${BASE}assets/logos/javascript.svg`,
       },
     ],
   },
@@ -235,17 +237,17 @@ export const mySocials = [
   {
     name: "WhatsApp",
     href: "",
-    icon: "/assets/socials/whatsApp.svg",
+    icon: `${BASE}assets/socials/whatsApp.svg`,
   },
   {
     name: "Linkedin",
     href: "https://www.linkedin.com/in/kanishk-sharda/",
-    icon: "/assets/socials/linkedIn.svg",
+    icon: `${BASE}assets/socials/linkedIn.svg`,
   },
   {
     name: "Instagram",
     href: "https://www.instagram.com/kxnixk.sh/",
-    icon: "/assets/socials/instagram.svg",
+    icon: `${BASE}assets/socials/instagram.svg`,
   },
 ];
 
@@ -300,48 +302,48 @@ export const reviews = [
     name: "Samsung",
     username: "@srib",
     body: "Certified by Samsung for Advanced Algorithmic & Problem-Solving Excellence",
-    img: "/assets/socials/samsung.svg",
+    img: `${BASE}assets/socials/samsung.svg`,
   },
   {
     name: "Udemy",
     username: "@udemy",
     body: "Certification on Advanced Unity and Game development",
-    img: "/assets/socials/udemy.svg",
+    img: `${BASE}assets/socials/udemy.svg`,
   },
   {
     name: "Samsung",
     username: "@srib",
     body: "Spot award for contribution in input pairing application",
-    img: "/assets/socials/samsung.svg",
+    img: `${BASE}assets/socials/samsung.svg`,
   },
   {
     name: "Udemy",
     username: "@udemy",
     body: "Certification on Advanced Android and Kotlin",
-    img: "/assets/socials/udemy.svg",
+    img: `${BASE}assets/socials/udemy.svg`,
   },
   {
     name: "Udemy",
     username: "@udemy",
     body: "Certification on advanced Java programming language.",
-    img: "/assets/socials/udemy.svg",
+    img: `${BASE}assets/socials/udemy.svg`,
   },
   {
     name: "Unity",
     username: "@unity",
     body: "Led Samsung’s first post-Meta Space Warping initiative, improving real-time XR performance by 35%, reducing latency spikes in motion tracking for a next-gen immersive experience.",
-    img: "/assets/logos/unity.png",
+    img: `${BASE}assets/logos/unity.png`,
   },
   {
     name: "Udemy",
     username: "@udemy",
     body: "Certification on advanced C++ programming language.",
-    img: "/assets/socials/udemy.svg",
+    img: `${BASE}assets/socials/udemy.svg`,
   },
   {
     name: "Tata",
     username: "@tata",
     body: "Certification in Industrial Robotics, Product design and development, Mechatronics and IoT, Advance Manufacturing..",
-    img: "/assets/socials/tata.svg",
+    img: `${BASE}assets/socials/tata.svg`,
   },
 ];

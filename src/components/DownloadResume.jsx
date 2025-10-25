@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from "react";
 
+const BASE = import.meta.env.BASE_URL;
+
 export default function DownloadResume({
   label = "Download Resume",
-  path = "/assets/kanishkSharda.pdf",
+  path = `${BASE}assets/kanishkSharda.pdf`,
 }) {
   const [loading, setLoading] = useState(false);
   const [supportsDownload, setSupportsDownload] = useState(true);
