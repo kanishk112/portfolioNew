@@ -4,7 +4,7 @@ const BASE = import.meta.env.BASE_URL;
 
 export default function DownloadResume({
   label = "Download Resume",
-  path = `${BASE}assets/kanishkSharda.pdf`,
+  path = `${BASE}assets/Kanishk_Sharda.pdf`,
 }) {
   const [loading, setLoading] = useState(false);
   const [supportsDownload, setSupportsDownload] = useState(true);
